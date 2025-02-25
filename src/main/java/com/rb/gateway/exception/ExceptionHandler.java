@@ -10,7 +10,7 @@ import java.time.Instant;
 public class ExceptionHandler {
 
     @org.springframework.web.bind.annotation.ExceptionHandler(UnauthorizedException.class)
-    public ResponseEntity<ExceptionResponse> handleUnauthorizedException(UnauthorizedException exception){
+    public ResponseEntity<ExceptionResponse> handleUnauthorizedException(UnauthorizedException exception) {
         ExceptionResponse exceptionResponse = new ExceptionResponse();
         exceptionResponse.setMessage(exception.getMessage());
         exceptionResponse.setTimeStamp(Instant.now());
