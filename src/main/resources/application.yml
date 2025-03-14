@@ -49,3 +49,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
 
+customized-header-for-token: loggedin-username
+
