@@ -45,7 +45,7 @@ To start the entire application, follow these steps:
 
 5. **Follow Service**
    ```sh
-   git clone git@github.com:jpingithub/SocialMedia-Follow-Service.git
+   git clone https://github.com/jpingithub/SocialMedia-Follow-Service.git
    cd SocialMedia-Follow-Service
    ./gradlew bootRun
    ```
