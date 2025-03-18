@@ -151,7 +151,7 @@ To start the entire application, follow these steps:
   }
   ```
 
-#### **1.5 Register User**
+#### **1.5 Update User**
 
 - **Endpoint:** `PUT /`
 - **Description:** Update the profile details of the currently logged-in user.
@@ -229,7 +229,7 @@ To start the entire application, follow these steps:
   }
   ```
 
-### **2.3 Validate Token**
+#### **2.3 Validate Token**
 - **Endpoint:** `GET /validate?token=`
 - **Description:** Validates the provided JWT token.
 - **ResponseCode:** 200 Ok
@@ -354,7 +354,7 @@ To start the entire application, follow these steps:
 - **Response:**
   `"Un-follow successful"`
 
-### **4.3 Get Followers of Current Logged-in User**
+#### **4.3 Get Followers of Current Logged-in User**
 - **Endpoint:** `GET /followers`
 - **Description:** Retrieves the list of users who are following the currently logged-in user.
 - **ResponseCode:** 200 Ok
@@ -369,7 +369,7 @@ To start the entire application, follow these steps:
 ]
 ```
 
-### **4.4 Get Followers of a Specific User**
+#### **4.4 Get Followers of a Specific User**
 - **Endpoint:** `GET /followers/{username}`
 - **Description:** Retrieves the list of users who are following the specified user.
 - **ResponseCode:** 200 Ok
@@ -384,7 +384,7 @@ To start the entire application, follow these steps:
 ]
 ```
 
-### **4.5 Get Followings of Current Logged-in User**
+#### **4.5 Get Followings of Current Logged-in User**
 - **Endpoint:** `GET /followings`
 - **Description:** Retrieves the list of users the currently logged-in user is following.
 - **ResponseCode:** 200 Ok
@@ -400,7 +400,7 @@ To start the entire application, follow these steps:
 ```
 
 
-### **4.6 Get Followings of a Specific User**
+#### **4.6 Get Followings of a Specific User**
 - **Endpoint:** `GET /followings/{username}`
 - **Description:** Retrieves the list of users the specified user is following.
 - **ResponseCode:** 200 Ok
