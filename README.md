@@ -98,6 +98,7 @@ To start the entire application, follow these steps:
     "username": "String",
     "password": "String",
     "email": "String",
+    "profileImageUrl": "String",
     "isEmailVerified": "Boolean"
   }
   ```
@@ -108,6 +109,7 @@ To start the entire application, follow these steps:
     "firstName": "String",
     "lastName": "String",
     "username": "String",
+    "profileImageUrl": "String",
     "email": "String"
   }
   ```
@@ -147,6 +149,7 @@ To start the entire application, follow these steps:
     "firstName": "String",
     "lastName": "String",
     "username": "String",
+    "profileImageUrl": "String",
     "email": "String"
   }
   ```
@@ -164,6 +167,7 @@ To start the entire application, follow these steps:
     "username": "String",
     "password": "String",
     "email": "String",
+    "profileImageUrl": "String",
     "isEmailVerified": "Boolean"
   }
   ```
@@ -174,6 +178,7 @@ To start the entire application, follow these steps:
     "firstName": "String",
     "lastName": "String",
     "username": "String",
+    "profileImageUrl": "String",
     "email": "String"
   }
   ```
@@ -190,6 +195,7 @@ To start the entire application, follow these steps:
     "firstName": "String",
     "lastName": "String",
     "username": "String",
+    "profileImageUrl": "String",
     "email": "String"
   }
   ```  
