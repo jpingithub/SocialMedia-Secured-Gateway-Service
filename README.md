@@ -219,7 +219,7 @@ To start the entire application, follow these steps:
 - **Response:**
   ```json
   {
-    "token": "string"
+    "jwtToken": "string"
   }
   ```
 
