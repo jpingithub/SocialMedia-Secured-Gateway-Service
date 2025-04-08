@@ -212,7 +212,7 @@ To start the entire application, follow these steps:
 - **Request Body:**
   ```json
   {
-    "email": "string",
+    "username": "string",
     "password": "string"
   }
   ```
